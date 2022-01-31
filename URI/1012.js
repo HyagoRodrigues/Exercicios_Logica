@@ -1,7 +1,5 @@
-// let A = 0 ; //parseFloat(lines.shift()); 
-// let B = 0 ; // parseFloat(lines.shift());
-// let C = 0 ; // parseFloat(lines.shift());
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+
+let input = require("fs").readFileSync("stdin", "utf8");
 
 
 let PI = 3.14159;
