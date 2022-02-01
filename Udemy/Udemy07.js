@@ -4,3 +4,7 @@ function repetir(item, quantidade){
         resultado.push(item)
     return resultado
 }
+
+let result = repetir('Puta', 5);
+
+console.log(result)
