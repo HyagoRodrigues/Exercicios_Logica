@@ -1,9 +1,7 @@
 
 function converterIdadeEmDias(idade) {
     let idadeEmDias = idade * 365.25
-    return idadeEmDias
+    return  console.log(idadeEmDias)
 }
 
-const result = converterIdadeEmDias(78);
-
-console.log(result);
+converterIdadeEmDias(15)

@@ -1,12 +1,3 @@
-function div3(n){
-    if(n %3 === 0){
-        return true
-    }else{
-        return false
-    }
+for(i=1; i <= 100; i++) {
+    if(i% 2 !== 0) console.log(i)
 }
-
-result = div3(9);
-
-
-console.log(result);

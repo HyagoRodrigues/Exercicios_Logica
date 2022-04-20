@@ -9,9 +9,9 @@ qtdDias = qtdDias % 365;
 
 qtdMes = parseInt(qtdDias / 30);
 qtdDias = qtdDias % 30;
-let resultado = `${qtdAno} ano(s) 
-${qtdMes} mes(es) 
-${qtdDias} dia(s)`
+let resultado = `${qtdAno} ano (s) 
+${qtdMes} mes (es) 
+${qtdDias} dia (s)`
 
 console.log(resultado)
 

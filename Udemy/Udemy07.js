@@ -5,6 +5,6 @@ function repetir(item, quantidade){
     return resultado
 }
 
-let result = repetir('Puta', 5);
+let result = repetir('Hyago', 5);
 
 console.log(result)
