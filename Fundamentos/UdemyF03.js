@@ -1,11 +1,6 @@
-function triangulos(ladoA,ladoB,ladoC){
-    if(ladoA === ladoB && ladoB === ladoC){
-        console.log("TRIANGULO EQUILATERO")
-    }else if((ladoA == ladoB && ladoA != ladoC)  || (ladoA == ladoC && ladoA != ladoB) || (ladoB == ladoC && ladoB != ladoA)){
-        console.log("TRIANGULO ISÓCELES")
-    }else{
-        console.log("TRIANGULO ESCALENO")
-    }
-}
+/**Crie uma função que recebe dois parâmetros, base e expoente, e retorne a base elevada ao expoente.
+ */
 
-triangulos(21,2,26)
+function potencia(base, expoente){
+    return Math.pow(base, expoente);
+}

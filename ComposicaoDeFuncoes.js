@@ -20,6 +20,6 @@ function tornarLento(texto){
 
 
 
-const resultado = Composicao (gritar, enfatizar, tornarLento, 'cuidado com o burado')
+const resultado = Composicao (gritar, enfatizar, tornarLento, 'cuidado com o buraco')
 
 console.log(resultado)
