@@ -1,3 +1,13 @@
+/** O cardápio de uma lanchonete é o seguinte:
+ * Código  Produto                                 Preço
+ * 100      Cachorro Quente                      R$ 3,00
+ * 200      Hambúrguer Simples                   R$ 4,00
+ * 300      Cheeseburguer                       R$ 5,50
+ * 400      Bauru                                R$ 7,50
+ * 500      Refrigerante                        R$ 3,50
+ * 600      Suco                                 R$ 2,50
+ */
+
 function Cardapio(cod, qtd){
     switch(cod){
     case 100: return "Cachorro Quente" + " R$ " + qtd * 3.00;
