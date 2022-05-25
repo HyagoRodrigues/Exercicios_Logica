@@ -5,4 +5,4 @@ function simboloaMais(qtd) {
     return console.log(resultado);
 }
 
-simboloaMais(1000)
+simboloaMais(10)

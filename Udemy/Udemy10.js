@@ -3,8 +3,9 @@ function receberPrimeiroEUltimoElemento(elementos) {
     const indiceDoUltimoElemento = elementos.length - 1
     const primeiroElemento = elementos[indiceDoPrimeiroElemento] 
     const ultimoElemento = elementos[indiceDoUltimoElemento]
-    return [primeiroElemento, ultimoElemento] }
+    return [primeiroElemento, ultimoElemento] 
+}
 
-const a = receberPrimeiroEUltimoElemento(1,151,1,2252,5,458, 'ola');
-
-console.log(a)
+    const elementos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    const primeiroEUltimoElemento = receberPrimeiroEUltimoElemento(elementos)
+    console.log(primeiroEUltimoElemento)

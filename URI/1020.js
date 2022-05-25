@@ -1,11 +1,18 @@
-let input = require("fs").readFileSync("stdin", "utf8");
+var input = require('fs').readFileSync('stdin', 'utf8');
 
-let idade = parseInt(input);
+let qtdDias = parseInt(input);
 
-        let anos = idade / 365;
-        let meses = (idade % 365) / 30;
-        let dias = (idade % 365) % 30;
-        console.log(` ${anos.toFixed()} ano (s) \n ${meses.toFixed()} mês (es) \n ${dias.toFixed()} dia (s)`);
+let qtdAno, qtdMes;
+
+qtdAno = parseInt(qtdDias/365);
+qtdDias = qtdDias % 365;
+
+qtdMes = parseInt(qtdDias / 30);
+qtdDias = qtdDias % 30;
+let resultado = `${qtdAno} ano (s) 
+${qtdMes} mes (es) 
+${qtdDias} dia (s)`
+console.log(resultado)
 
 
 
